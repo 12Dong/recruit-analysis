@@ -1,0 +1,4 @@
+SQL server
+TCP/IP
+sql sever
+entity framework
