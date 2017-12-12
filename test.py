@@ -1,6 +1,6 @@
-import jieba
-
-word="熟悉Liux/Unix操作系统，具有良好的Shell/Perl/Python编程能力；"
-data = jieba.cut(word,cut_all=False,HMM=True)
-for i in data:
-    print(i)
+f = open("url.txt","rt")
+num = 1
+for text in f:
+    print(num,text)
+    num+=1
+f.close()
